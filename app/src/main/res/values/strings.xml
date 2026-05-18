@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pedal Rush</string>
+    <string name="subtitle">Endless Cycling Adventure</string>
+    <string name="play">PLAY</string>
+    <string name="exit">Exit</string>
+    <string name="game_over">Game Over</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="score_label">SCORE</string>
+    <string name="best_label">BEST</string>
+    <string name="coins_label">COINS</string>
+    <string name="version">v1.0</string>
+</resources>

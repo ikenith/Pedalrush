@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_gameover">
+
+    <!-- Card -->
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/card_background"
+        android:padding="28dp">
+
+        <!-- Game Over heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_over"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="20dp" />
+
+        <!-- NEW BEST label -->
+        <TextView
+            android:id="@+id/gameover_newbest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏆 NEW BEST!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFDD835"
+            android:visibility="invisible"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Score -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_label"
+            android:textSize="13sp"
+            android:textColor="#AAFFFFFF"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/gameover_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-condensed" />
+
+        <!-- Best -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/best_label"
+            android:textSize="13sp"
+            android:textColor="#AAFFFFFF"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/gameover_best"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFDD835" />
+
+        <!-- Coins -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coins_label"
+            android:textSize="13sp"
+            android:textColor="#AAFFFFFF"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/gameover_coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="22sp"
+            android:textColor="#FFFFD54F" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Restart -->
+        <Button
+            android:id="@+id/btn_restart"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/play_again"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_primary"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Main Menu -->
+        <Button
+            android:id="@+id/btn_main_menu"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="@string/main_menu"
+            android:textSize="15sp"
+            android:textColor="#CCFFFFFF"
+            android:background="@drawable/btn_ghost" />
+
+    </LinearLayout>
+
+</RelativeLayout>
